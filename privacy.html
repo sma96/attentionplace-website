@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>개인정보처리방침 — Attention Place</title>
+  <meta name="description" content="Attention Place 앱의 개인정보처리방침입니다." />
+  <style>
+    :root {
+      --bg: #FFFFFF; --card: #F7F7F7; --line: #ECECEC;
+      --text: #1A1A1A; --muted: #6B6B6B; --accent: #FA0F46;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo",
+                   "Pretendard", "Segoe UI", Roboto, sans-serif;
+      background: var(--bg); color: var(--text); line-height: 1.75;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    .wrap { max-width: 760px; margin: 0 auto; padding: 0 24px; }
+    header {
+      border-bottom: 1px solid var(--line); padding: 20px 0;
+      position: sticky; top: 0; background: rgba(255,255,255,0.82);
+      backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+    }
+    .brand { display: flex; align-items: center; gap: 10px; font-weight: 700; }
+    .brand .dot { width: 20px; height: 20px; border-radius: 6px; background: var(--accent); }
+    main { padding: 56px 0 80px; }
+    h1 { font-size: 32px; font-weight: 800; letter-spacing: -0.5px; margin-bottom: 8px; }
+    .updated { color: var(--muted); font-size: 14px; margin-bottom: 40px; }
+    h2 { font-size: 20px; font-weight: 700; margin: 36px 0 12px; }
+    p, li { color: #333; font-size: 16px; }
+    ul { padding-left: 22px; margin: 8px 0; }
+    li { margin-bottom: 6px; }
+    .lead { color: var(--muted); font-size: 16px; }
+    table { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: 15px; }
+    th, td { text-align: left; padding: 12px 14px; border: 1px solid var(--line); vertical-align: top; }
+    th { background: var(--card); font-weight: 600; }
+    footer { border-top: 1px solid var(--line); padding: 28px 0; color: var(--muted); font-size: 14px; }
+    .back { display: inline-block; margin-bottom: 28px; font-size: 15px; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap brand"><span class="dot"></span> Attention Place</div>
+  </header>
+
+  <main>
+    <div class="wrap">
+      <a class="back" href="index.html">← 홈으로</a>
+      <h1>개인정보처리방침</h1>
+      <p class="updated">최종 수정일: 2026년 6월 14일</p>
+
+      <p class="lead">
+        Attention Place(이하 "회사")는 이용자의 개인정보를 중요하게 생각하며,
+        「개인정보 보호법」 등 관련 법령을 준수합니다. 본 방침은 Attention Place 앱(이하 "앱")이
+        어떤 정보를 어떻게 사용하는지 설명합니다. 앱은 개인정보 수집을 최소화하며,
+        민감한 데이터는 가능한 한 이용자의 기기 안에서만 처리합니다.
+      </p>
+
+      <h2>1. 수집·이용하는 정보</h2>
+      <table>
+        <tr><th>항목</th><th>이용 목적</th><th>처리 방식</th></tr>
+        <tr>
+          <td>위치 정보</td>
+          <td>'위치 게이트'(정한 장소에서 집중) 및 집중 기록의 장소 표시</td>
+          <td>기기 내에서 처리·저장. 외부 서버로 전송하지 않음</td>
+        </tr>
+        <tr>
+          <td>마이크 입력</td>
+          <td>주변 소음 수준(데시벨) 측정 및 시각화</td>
+          <td>실시간 측정에만 사용. 음성을 녹음·저장·전송하지 않음</td>
+        </tr>
+        <tr>
+          <td>Screen Time(스크린 타임) 권한</td>
+          <td>집중 시간 동안 선택한 앱 잠금</td>
+          <td>Apple의 Family Controls 프레임워크로 기기 내에서만 동작. 어떤 앱을 선택했는지는 외부로 전송되지 않음</td>
+        </tr>
+        <tr>
+          <td>집중 세션 기록 (시간, 장소, 시각)</td>
+          <td>집중 히스토리·지도 제공</td>
+          <td>기기 내 SwiftData에 저장</td>
+        </tr>
+        <tr>
+          <td>익명 사용 통계</td>
+          <td>앱 품질 개선 및 기능 사용 분석</td>
+          <td>TelemetryDeck을 통해 개인을 식별할 수 없는 형태로 수집</td>
+        </tr>
+      </table>
+
+      <h2>2. 위치 정보의 처리</h2>
+      <p>
+        위치 정보는 이용자가 직접 등록한 장소에서의 집중 기능과 기록 표시를 위해서만 사용됩니다.
+        위치 데이터는 이용자의 기기 안에 저장되며, 회사 서버나 제3자에게 전송·판매되지 않습니다.
+        위치 권한은 기기의 설정에서 언제든지 해제할 수 있습니다.
+      </p>
+
+      <h2>3. 마이크의 처리</h2>
+      <p>
+        마이크는 주변 소음 수준을 실시간으로 측정해 화면에 표시하는 용도로만 사용됩니다.
+        어떠한 음성도 녹음·저장·전송하지 않습니다.
+      </p>
+
+      <h2>4. 익명 통계 (분석)</h2>
+      <p>
+        앱 개선을 위해 TelemetryDeck 서비스를 사용하여 익명화된 사용 통계(예: 기능 사용 빈도)를 수집합니다.
+        이 정보는 특정 개인을 식별할 수 없으며, 이름·이메일·연락처 등 개인정보를 포함하지 않습니다.
+      </p>
+
+      <h2>5. 데이터 보관 및 삭제</h2>
+      <p>
+        집중 기록 등 앱이 생성한 데이터는 이용자의 기기에 저장됩니다.
+        앱을 삭제하면 기기에 저장된 관련 데이터도 함께 삭제됩니다.
+      </p>
+
+      <h2>6. 제3자 제공</h2>
+      <p>
+        회사는 이용자의 개인정보를 제3자에게 판매하거나 광고 목적으로 제공하지 않습니다.
+        앱은 광고를 포함하지 않습니다.
+      </p>
+
+      <h2>7. 아동의 개인정보</h2>
+      <p>
+        앱은 만 14세 미만 아동의 개인정보를 고의로 수집하지 않습니다.
+      </p>
+
+      <h2>8. 이용자의 권리</h2>
+      <p>
+        이용자는 기기 설정에서 위치·마이크·스크린 타임 등 각 권한을 언제든지 허용하거나 거부할 수 있으며,
+        앱 삭제를 통해 저장된 데이터를 제거할 수 있습니다.
+      </p>
+
+      <h2>9. 방침의 변경</h2>
+      <p>
+        본 개인정보처리방침은 법령이나 서비스 변경에 따라 수정될 수 있으며,
+        변경 시 본 페이지를 통해 공지합니다.
+      </p>
+
+      <h2>10. 문의처</h2>
+      <p>
+        개인정보 처리에 관한 문의는 아래로 연락해 주세요.<br />
+        이메일: attentionplace.support@gmail.com
+      </p>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap">© 2026 Attention Place. All rights reserved.</div>
+  </footer>
+</body>
+</html>
