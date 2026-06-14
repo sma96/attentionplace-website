@@ -5,6 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>개인정보처리방침 — Attention Place</title>
   <meta name="description" content="Attention Place 앱의 개인정보처리방침입니다." />
+
+  <!-- 파비콘 (앱 아이콘) -->
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
   <style>
     :root {
       --bg: #FFFFFF; --card: #F7F7F7; --line: #ECECEC;
@@ -26,7 +30,7 @@
       backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
     }
     .brand { display: flex; align-items: center; gap: 10px; font-weight: 700; }
-    .brand .dot { width: 20px; height: 20px; border-radius: 6px; background: var(--accent); }
+    .brand .logo { width: 26px; height: 26px; border-radius: 6px; object-fit: cover; }
     main { padding: 56px 0 80px; }
     h1 { font-size: 32px; font-weight: 800; letter-spacing: -0.5px; margin-bottom: 6px; }
     .subtitle { color: var(--muted); font-weight: 600; font-size: 15px; margin-bottom: 6px; }
@@ -43,7 +47,7 @@
 </head>
 <body>
   <header>
-    <div class="wrap brand"><span class="dot"></span> Attention Place</div>
+    <div class="wrap brand"><img class="logo" src="favicon.png" alt="Attention Place 아이콘" /> Attention Place</div>
   </header>
 
   <main>
