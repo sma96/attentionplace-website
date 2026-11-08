@@ -41,6 +41,9 @@
     p { margin-bottom: 14px; }
     ul { padding-left: 22px; margin: 8px 0 14px; }
     li { margin-bottom: 6px; }
+    table { width: 100%; border-collapse: collapse; margin: 8px 0 14px; font-size: 15px; }
+    th, td { border: 1px solid var(--line); padding: 10px 12px; text-align: left; vertical-align: top; }
+    th { background: var(--card); font-weight: 700; }
     footer { border-top: 1px solid var(--line); padding: 28px 0; color: var(--muted); font-size: 14px; }
     .back { display: inline-block; margin-bottom: 28px; font-size: 15px; }
   </style>
@@ -55,7 +58,7 @@
       <a class="back" href="index.html">← 홈으로</a>
       <h1>개인정보처리방침</h1>
       <p class="subtitle">Privacy Policy</p>
-      <p class="updated">시행일: 2026-04-14</p>
+      <p class="updated">시행일: 2026-07-13</p>
 
       <p>
         This privacy policy applies to the Attention Place app (hereby referred to as "Application")
@@ -68,19 +71,56 @@
         The Application does not obtain any information when you download and use it.
         Registration is not required to use the Application.
       </p>
+      <p>
+        If you sign in with Apple or Google to use the optional Group feature, the following
+        information is collected to provide the service:
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Information</th>
+            <th>Purpose</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Email address, social login identifier</td>
+            <td>Account creation and identification</td>
+          </tr>
+          <tr>
+            <td>Profile information — name and profile photo, as provided by your Apple or Google account</td>
+            <td>Display purposes</td>
+          </tr>
+          <tr>
+            <td>Nickname</td>
+            <td>Displayed to your group members</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        This information is kept until you delete your account, which you can do at any time
+        in the Application via Settings → Delete Account.
+      </p>
 
       <h2>Does the Application collect precise real time location information of the device?</h2>
       <p>This Application does not collect precise information about the location of your mobile device.</p>
       <p>Please note, however, that location information collection may be implemented in future updates.</p>
 
       <h2>Do third parties see and/or have access to information obtained by the Application?</h2>
-      <p>Since the Application does not collect any information, no data is shared with third parties.</p>
+      <p>
+        The Application does not share your information with third parties, except for Supabase,
+        the server infrastructure used to store account data (servers are located in Singapore).
+      </p>
 
       <h2>What are my opt-out rights?</h2>
       <p>
         You can stop all collection of information by the Application easily by uninstalling it.
         You may use the standard uninstall processes as may be available as part of your mobile device
         or via the mobile application marketplace or network.
+      </p>
+      <p>
+        Note that uninstalling does not delete account data stored on our servers — if you have used
+        the Group feature, delete your account in the Application first.
       </p>
 
       <h2>Children</h2>
@@ -98,13 +138,6 @@
         Provider (attentionplace.support@gmail.com) so that they will be able to take the necessary actions.
         You must also be at least 16 years of age to consent to the processing of your personally identifiable
         information in your country (in some countries we may allow your parent or guardian to do so on your behalf).
-      </p>
-
-      <h2>Security</h2>
-      <p>
-        The Service Provider is concerned about safeguarding the confidentiality of your information.
-        However, since the Application does not collect any information, there is no risk of your data
-        being accessed by unauthorized individuals.
       </p>
 
       <h2>Use of TelemetryDeck to analyze app usage</h2>
@@ -154,7 +187,7 @@
         You are advised to consult this Privacy Policy regularly for any changes, as continued use is deemed
         approval of all changes.
       </p>
-      <p>This privacy policy is effective as of 2026-04-14.</p>
+      <p>This privacy policy is effective as of 2026-07-13.</p>
 
       <h2>Your Consent</h2>
       <p>
